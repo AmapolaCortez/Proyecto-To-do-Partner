@@ -16,8 +16,9 @@ Objetivos del proyecto:
 Desarrollar una aplicación web y móvil para la gestión de tareas en equipo que apoye la coordinación y productividad en entornos de                            trabajo colaborativo.
 
 -> Objetivo específicos:
-Diseñar la arquitectura técnica e interfaz de usuario de la aplicación para entornos web y móvil.
-Implementar los módulos principales de gestión de tareas, asignación de roles y notificaciones en tiempo real.
-Evaluar la usabilidad y el impacto
+-Diseñar los bocetos iniciales de las pantallas principales de la aplicación, considerando inicio de sesión, registro, tablero de tareas y creación de actividades.
+-Definir la arquitectura inicial del sistema, identificando las tecnologías, módulos principales y flujo general de funcionamiento.
+-Crear un prototipo funcional de la aplicación, estructurando los archivos y componentes necesarios para poder ejecutarla localmente.
+-Validar el funcionamiento básico del prototipo, comprobando la navegación entre pantallas, la gestión simple de tareas y la visualización del tablero Kanban.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
