@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "titulo": "Diseñar pantalla de login",
+    "descripcion": "Crear la interfaz inicial de inicio de sesión",
+    "estado": "pendiente",
+    "prioridad": "media",
+    "asignadoA": "Amapola"
+  },
+  {
+    "id": 2,
+    "titulo": "Crear tablero Kanban",
+    "descripcion": "Diseñar columnas pendiente, en progreso y completada",
+    "estado": "en progreso",
+    "prioridad": "alta",
+    "asignadoA": "Diego"
+  }
+]

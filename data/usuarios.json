@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Diego Zuleta",
+    "email": "diego@correo.com",
+    "password": "$2b$10$uU6zdgDdGpLjMjvkqVWpTe4tWfyj7FK0rVV5maBVSCPjOuYIdSV0a",
+    "rol": "usuario"
+  },
+  {
+    "id": 2,
+    "nombre": "Amapola Cortez",
+    "email": "amapola@correo.com",
+    "password": "$2b$10$SNRDf1NWw8xJ3UEUufgSdez4C3beeLvalOVIxDMYEjKCtqV1Zdeby",
+    "rol": "admin"
+  }
+]
