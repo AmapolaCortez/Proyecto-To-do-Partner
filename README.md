@@ -33,23 +33,23 @@ To do Partner
 5. Estructura de la carpeta
   
 Proyecto-To-do-Partner/
-├---controllers/
-│   ├── authController.js
-│   ├── tareasController.js
-│   └── usuariosController.j
-├--- data/
-│   ├── tareas.json
-│   └── usuarios.json
-├----middlewares/
-│   └── authMiddleware.js
-├---- routes/
-│   ├── authRoutes.js
-│   ├── tareasRoutes.js
-│   └── usuariosRoutes.js
-├---.gitignore
-├----package.json
-├--- package-lock.json
-└---server.js
+controllers:
+authController.js
+tareasController.js
+usuariosController.j
+data:
+tareas.json
+usuarios.json
+middlewares:
+authMiddleware.js
+routes:
+authRoutes.js
+tareasRoutes.js
+usuariosRoutes.js
+gitignore
+package.json
+package-lock.json
+server.js
 .............................................................................................................................................................
 6. Instalación y ejecución
 
