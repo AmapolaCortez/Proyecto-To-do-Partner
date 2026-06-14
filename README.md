@@ -21,14 +21,14 @@ To do Partner
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Funcionalidades implementadas en la entrega 2
 * Servidor backend con Node.js y Expres
-* Registro de usuarios
+* registro de usuarios
 * Inicio de sesión con generación de token JWT
 * CRUD de tareas.
-* Clasificación de tareas por estado: pendiente, en progreso y completada.
+* clasificación de tareas por estado: pendiente, en progreso y completada.
 * Asignación de tareas a usuario
-* Persistencia mediante archivos JSON
-* Rutas protegidas con token para crear, editar y eliminar tareas.
-* Estructura organizada en rutas, controladores, middlewares y datos
+* persistencia mediante archivos JSON
+* rutas protegidas con token para crear, editar y eliminar tareas.
+* estructura organizada en rutas, controladores, middlewares y datos
 .............................................................................................................................................................
 5. Estructura de la carpeta
   
@@ -53,17 +53,16 @@ Proyecto-To-do-Partner/
 .............................................................................................................................................................
 6. Instalación y ejecución
 
-1. Clonar el repositorio:git clone URL_DEL_REPOSITORIO
+1. clonar el repositorio:git clone URL_DEL_REPOSITORIO
 2. Entrar a la carpeta del proyecto:cd Proyecto-To-do-Partner
 3. Instalar dependencias:npm install
-4. Crear un archivo  env con el siguiente contenido:
+4. crear un archivo  env con el siguiente contenido:
 PORT=3000
 JWT_SECRET=clave_secreta_to_do_partner
-5. Ejecutar el servidor:npm start
+5. ejecutar el servidor:npm start
 6. Abrir en el navegador:http://localhost:3000
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7. Entidades del sistema
-
 Usuario
 | Campo    | Tipo   | Descripción                        |
 | -------- | ------ | ---------------------------------- |
@@ -74,7 +73,7 @@ Usuario
 | rol      | String | Rol del usuario dentro del sistema |
 
 Tarea
-| Campo       | Tipo   | Descripción                         |
+| campo       | Tipo   | Descripción                         |
 | ----------- | ------ | ----------------------------------- |
 | id          | Number | Identificador único de la tarea     |
 | titulo      | String | Título de la tarea                  |
@@ -83,7 +82,7 @@ Tarea
 | prioridad   | String | baja, media o alta                  |
 | asignadoA   | String | Usuario responsable de la tarea     |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Rutas de la api
+8. Rutas de la api
 Autenticación
 
 | Método | Ruta               | Descripción                       |
@@ -106,4 +105,4 @@ Tareas
 | DELETE | /api/tareas/:id | Elimina una tarea        | Requiere token |
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Estado del avance
-El backend se encuentra funcional en entorno local. Se implementó autenticación básica con JWT, persistencia con archivos JSON y CRUD de tareas, ademas el frontend se encuentra en etapa inicial preparado para conectarse posteriormente al backend mediante peticiones HTTP
+el backend se encuentra funcional en entorno local. Se implementó autenticación básica con JWT, persistencia con archivos JSON y CRUD de tareas, ademas el frontend se encuentra en etapa inicial preparado para conectarse posteriormente al backend mediante peticiones HTTP
